@@ -1,0 +1,29 @@
+.contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.content{
+    line-height: 3;
+}
+
+.content h2{
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.span-content{
+    font-size: 1.15em;
+    
+}
+
+.span-content::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: #ddd;
+    margin-right: 10px;
+
+}

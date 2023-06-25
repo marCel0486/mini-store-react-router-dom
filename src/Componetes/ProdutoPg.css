@@ -1,0 +1,22 @@
+.produtopg {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+}
+
+.produtopg h1 {
+    font-size: 2.25em;
+}
+
+.preco{
+    font-size: 2em;
+
+}
+
+.descricao{
+    color: black;
+    font-size: 1.25em;
+    line-height: 1.2;
+}
